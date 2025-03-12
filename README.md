@@ -77,6 +77,12 @@ There are many similar problems like this. For instance, we might attach an Elas
 
 18. Then scroll down and click 'Add Permissions'.
 19. After that, you can go to the Lambda function page and run the code; it will display some outputs as shown below.
+    {{Note- If you have any error "Task timed out after 3.04 seconds" , Then follow the below steps: 1. Increase Timeout in Lambda Settings
+By default, AWS Lambda has a short timeout (3 seconds). Increase it to a higher value (e.g., 10-15 seconds):
+Go to AWS Lambda Console
+Select your function
+Click Configuration → General Configuration
+Increase Timeout}}
 
 ![lambda11](https://github.com/itz-mathesh/aws-cost-optimization/assets/144098846/193c1496-b9ef-4455-bb29-718f9497b86d)
 
